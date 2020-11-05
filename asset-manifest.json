@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FormValidation/static/css/main.f6617d12.chunk.css",
+    "main.js": "/FormValidation/static/js/main.84339624.chunk.js",
+    "main.js.map": "/FormValidation/static/js/main.84339624.chunk.js.map",
+    "runtime-main.js": "/FormValidation/static/js/runtime-main.143ea4d7.js",
+    "runtime-main.js.map": "/FormValidation/static/js/runtime-main.143ea4d7.js.map",
+    "static/js/2.cca75c89.chunk.js": "/FormValidation/static/js/2.cca75c89.chunk.js",
+    "static/js/2.cca75c89.chunk.js.map": "/FormValidation/static/js/2.cca75c89.chunk.js.map",
+    "index.html": "/FormValidation/index.html",
+    "precache-manifest.93d70ebd78a6a08fa11a1c968f48b517.js": "/FormValidation/precache-manifest.93d70ebd78a6a08fa11a1c968f48b517.js",
+    "service-worker.js": "/FormValidation/service-worker.js",
+    "static/css/main.f6617d12.chunk.css.map": "/FormValidation/static/css/main.f6617d12.chunk.css.map",
+    "static/js/2.cca75c89.chunk.js.LICENSE.txt": "/FormValidation/static/js/2.cca75c89.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/FormValidation/static/media/Inter-Medium-slnt=0.5ff1f2a9.ttf",
+    "static/media/img.jpg": "/FormValidation/static/media/img.a68e1eb7.jpg",
+    "static/media/superscene.png": "/FormValidation/static/media/superscene.40eae87f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.143ea4d7.js",
+    "static/js/2.cca75c89.chunk.js",
+    "static/css/main.f6617d12.chunk.css",
+    "static/js/main.84339624.chunk.js"
+  ]
+}
