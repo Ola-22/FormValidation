@@ -1,0 +1,21 @@
+
+.check span{
+  color: #696F79;
+  margin-left: 10px;
+  display: flex;
+  font-size: 13px;
+  padding-top: 4px;
+}
+.inputLog{
+  display: flex;
+  flex-direction: column;
+  width: 71%;
+  flex: 1;
+  height: 7vh;
+  margin-left: 17vh;
+  /* border: 1px solid #8692A6; */
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+  /* padding-left: 20px; */
+}

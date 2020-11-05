@@ -1,0 +1,98 @@
+
+.form_main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.leftForm{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.rightForm{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* margin-right:20vh ; */
+}
+.form_app form{
+  display: flex;
+  flex-direction: column;
+ 
+  
+}
+label{
+  color: #696F79;
+  font-size: 13px;
+  margin-left: 17vh;
+}
+.email{
+  border-top: 1px solid #F5F5F5;
+  padding-top: 3vh;
+  width: 50vh;
+}
+
+input::placeholder{
+  font-size: 13px;
+  font-weight: 500px;
+  color: #8692A6;
+}
+
+.check .terms{
+  margin-top: 7px;
+}
+[type="checkbox"]:checked{
+  box-shadow: 0 0 2px 2px #C4C4C4;
+
+} 
+ .check span{
+  color: #696F79;
+  margin-left: 10px;
+  font-weight: 500px;
+  margin-top: 3px;
+}
+
+.btn2{
+  border: none;
+  margin-bottom: 10px;
+  background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+height: 7vh;
+width: 53vh;
+margin-left: 17vh;
+font-weight: bold;
+border-radius: 6px;
+}
+
+.line{
+  color:  #BABABA;
+  display: flex;
+  align-items: center;
+font-family: "Inter";
+color: #BABABA;
+width: 58vh;
+margin-left: 11vh;
+/* margin-left: 24vh; */
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.line_box{
+  margin-left: 10px;
+  margin-right: -40px;
+  
+}
+
+.btn_box{
+  margin-left: 50px;
+}
+
+.registerError{
+  margin-left: 17vh;
+  color: red;
+  font-size: 13px;
+}

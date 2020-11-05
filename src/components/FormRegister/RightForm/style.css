@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../Inter-Medium-slnt=0.ttf");
+}
+*{
+  font-family: "Inter";
+}
+.main_right{
+  display: flex;
+  flex-direction: column;
+}
+.main_right .back{
+  display: flex;
+  flex-direction: row;
+  color: #8692A6;
+  margin-top: 7vh;
+  cursor: pointer;
+}
+.back p{
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 2vh;
+  cursor: pointer;
+  
+}
+.angle_left{
+  font-size: 17px;
+}
+
+.form_box .form_title{
+  margin-top: 2%;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 17vh;
+}
+.form_box p{
+  color: #8692A6;
+  line-height: 20px;
+  margin-top: 5px;
+  margin-left: 17vh;
+  padding-bottom: 10px;
+}
+
+label{
+  color: #696F79;
+  font-size: 13px;
+}

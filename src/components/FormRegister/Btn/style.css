@@ -1,0 +1,27 @@
+/* button{
+  width: 50vh;
+  height: 50px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+} */
+.btnRegister{
+  border: 1px solid #1565D8;
+  background: #1565D8;
+  color: #fff;
+  width: 53vh;
+  height: 50px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 17vh;
+}
+.btn{
+border: 1px solid #1565D8;
+background: #1565D8;
+color: #fff;
+
+}
