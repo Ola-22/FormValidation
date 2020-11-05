@@ -1,0 +1,62 @@
+
+.form_main{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.game{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  float: right;
+  margin-left: 20vh;
+  margin-top: 8vh;
+}
+.content_main{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  color: #696F79;
+  justify-content: flex-end;
+  margin-left: 18vh;
+  margin-top: 15px;
+}
+.input_box{
+  position: relative;
+}
+.password_icon{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  top: 35%;
+  left: 78%;
+  cursor: pointer;
+  color: #8692A6;
+}
+
+.input_box .psw{
+  position: absolute;
+  top: 28%;
+  left: 92%;
+  cursor: pointer;
+  text-decoration: line-through;
+  visibility: hidden;
+}
+
+.labelLog{
+  margin-left: 17vh;
+}
+
+#button{
+  margin-left: 17.2vh;
+}
+
+
+/* .remember{
+  margin-top: 10vh;
+} */
