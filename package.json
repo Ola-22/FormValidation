@@ -2,7 +2,7 @@
     "name": "ola",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://ola-22.github.io/FormValidation/",
+    "homepage": "https://ola-22.github.io/FormValidation",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.32",
         "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -24,8 +24,8 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "npm build",
-        "deploy": "gh-pages -d build"
+        "predeploy":"npm run build",
+        "deploy":"gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
