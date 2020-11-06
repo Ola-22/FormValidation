@@ -12,9 +12,9 @@ const signUpSchema = (fieldName) => {
     };
 
     const errMsgs = {
-      email: "Enter e-mail 😡",
-      password: "Where is your password ? 🙄",
-      password2: "Hello ??",
+      email: "The Email field is required",
+      password: "The Password field is required",
+      password2: "Please confirm your password",
     };
 
     validationObj[fieldName] = validationObj[fieldName].required(
@@ -24,17 +24,17 @@ const signUpSchema = (fieldName) => {
     return yup.object().shape(validationObj);
   } else {
     return yup.object().shape({
-      email: yup.string().email().required("Enter e-mail 😡"),
+      email: yup.string().email().required("The Email field is required"),
       password: yup
         .string()
         .min(8, "min char is 8")
         .matches()
         .max(20)
-        .required("Where is your password ? 🤨"),
+        .required("The Password field is required"),
       password2: yup
         .string()
         .oneOf([yup.ref("password"), null], "Passwords must match")
-        .required("Did you really forget me ??? 😥"),
+        .required("Please confirm your password"),
       isCheck: yup.boolean().typeError("You must agree").oneOf([true]),
     });
   }
